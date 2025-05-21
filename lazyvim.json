@@ -1,6 +1,10 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.ai.copilot-chat"
+    "lazyvim.plugins.extras.ai.copilot",
+    "lazyvim.plugins.extras.ai.copilot-chat",
+    "lazyvim.plugins.extras.coding.mini-snippets",
+    "lazyvim.plugins.extras.dap.core",
+    "lazyvim.plugins.extras.lang.go"
   ],
   "install_version": 8,
   "news": {

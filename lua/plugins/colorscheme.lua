@@ -1,6 +1,5 @@
 return {
   { "navarasu/onedark.nvim", opts = { style = "deep" } },
-  { "rose-pine/neovim", name = "rose-pine" },
   { "sainnhe/everforest" },
   { "sainnhe/gruvbox-material" },
   { "sainnhe/sonokai" },
