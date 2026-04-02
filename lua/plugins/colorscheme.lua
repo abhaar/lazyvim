@@ -3,12 +3,13 @@ return {
   { "sainnhe/gruvbox-material" },
   { "sainnhe/sonokai" },
   { "mofiqul/dracula.nvim" },
+  { "rebelot/kanagawa.nvim" },
 
   -- Configure lazyvim to load the theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "sonokai",
+      colorscheme = "kanagawa",
     },
   },
 }
