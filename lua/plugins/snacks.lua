@@ -7,6 +7,11 @@ return {
           ignored = true,
         },
       },
+      formatters = {
+        file = {
+          filename_first = true,
+        },
+      },
     },
   },
 }
