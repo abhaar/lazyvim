@@ -6,3 +6,8 @@
 vim.keymap.set("n", "<leader>/", function()
   Snacks.picker.grep({ cwd = vim.uv.cwd() })
 end, { desc = "Grep (cwd) " })
+
+-- Map <leader><leader> to find files in current working directory (cwd)
+vim.keymap.set("n", "<leader><leader>", function()
+  Snacks.picker.files({ cwd = vim.uv.cwd() })
+end, { desc = "Find Files (cwd) " })
